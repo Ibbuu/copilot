@@ -1,0 +1,17 @@
+{
+  "name": "LAW Alert Monitor",
+  "version": "1.0.0",
+  "description": "A Copilot Studio skill to monitor alerts in LAW (Log Analysis Workbench).",
+  "entryPoints": [
+    {
+      "name": "monitorAlerts",
+      "description": "Entry point to start monitoring alerts from LAW."
+    }
+  ],
+  "permissions": [
+    "read:alerts"
+  ],
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
