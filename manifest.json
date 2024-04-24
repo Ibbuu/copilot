@@ -11,6 +11,22 @@
   "permissions": [
     "read:alerts"
   ],
+  "endpoints": [
+        {
+            "name": "americas",
+            "protocol": "BotFrameworkV3",
+            "description": "Production endpoint for SkillBot in the Americas",
+            "endpointUrl": "http://myskill.contoso.com/api/messages",
+            "msAppId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "name": "eu",
+            "protocol": "BotFrameworkV3",
+            "description": "Production endpoint for SkillBot in Europe",
+            "endpointUrl": "http://myskill.contoso.com/api/messages",
+            "msAppId": "11111111-0000-0000-0000-000000000000"
+        }
+    ],
   "dependencies": {
     "axios": "0.21.1"
   }
